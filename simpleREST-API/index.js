@@ -8,7 +8,7 @@ app.listen(3000, () => {
 
 app.get("/url", (request, response, next) => {
     response.json({
-        "name": "simples NodeJS API",
+        "name": "simple NodeJS API",
         "language": "javascript",
         "IDE": "VS Code"
     })
