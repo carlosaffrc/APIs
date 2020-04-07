@@ -7,5 +7,9 @@ app.listen(3000, () => {
 });
 
 app.get("/url", (request, response, next) => {
-    response.json(["Gutz", "Vanessy", "Faèllis", "Belluka", "Lalina"])
+    response.json({
+        "name": "simples NodeJS API",
+        "language": "javascript",
+        "IDE": "VS Code"
+    })
 });
